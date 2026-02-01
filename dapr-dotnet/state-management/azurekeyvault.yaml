@@ -1,0 +1,16 @@
+# apiVersion: dapr.io/v1alpha1
+# kind: Component
+# metadata:
+#   name: azurekeyvault
+# spec:
+#   type: secretstores.azure.keyvault
+#   version: v1
+#   metadata:
+#   - name: vaultName
+#     value: "dapr-101-keyvault"
+#   - name: azureTenantId
+#     value: "b0d76c16-0767-4237-a4b8-0b1944932ddb"
+#   - name: azureClientId
+#     value: "155d31b3-4458-4149-888f-d2dbd800be9d"
+#   - name: azureCertificateFile
+#     value : "./cert/app_registration_dapr-101_martin_david.cer"

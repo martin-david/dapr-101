@@ -1,0 +1,18 @@
+# apiVersion: dapr.io/v1alpha1
+# kind: Component
+# metadata:
+#   name: tablestoragebtcprices
+# spec:
+#   type: state.azure.tablestorage
+#   version: v1
+#   metadata:
+#   - name: accountName
+#     value: dapr101storage
+#   - name: accountKey
+#     secretKeyRef:
+#       name: azurekeyvault
+#       key: storage-account-key
+#   - name: tableName
+#     value: tablestorageaccounts
+# auth:
+#   secretStore: azurekeyvault

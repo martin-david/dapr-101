@@ -1,0 +1,12 @@
+@state_management_HostAddress = http://localhost:5000
+
+GET {{state_management_HostAddress}}/account/martin
+Accept: application/json
+
+### deposit 1000 to martin's account
+POST {{state_management_HostAddress}}/account/martin/2000
+Accept: application/json
+
+###
+DELETE {{state_management_HostAddress}}/account/martin/2000
+Accept: application/json
